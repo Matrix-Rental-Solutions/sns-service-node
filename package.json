@@ -85,7 +85,6 @@
   "name": "@devslane/sns-service-node",
   "scripts": {
     "docs": "typedoc --out docs lib",
-    "prepare": "npm run build && npm run test",
     "test": "jest --coverage",
     "test:jest": "jest",
     "tslint": "tslint -c tslint.json -p tsconfig.json"

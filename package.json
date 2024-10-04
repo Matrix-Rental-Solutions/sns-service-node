@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "@devslane/sns-service-node@1.0.2",
+      "/home/ubuntu/app/matrix-be"
+    ]
+  ],
+  "_from": "@devslane/sns-service-node@1.0.2",
+  "_id": "@devslane/sns-service-node@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-L5KtU//CxjL5eJDkBDTryb4raptnjtCctl7YQIve0tH1cYMnyeU9vmE3cKHDrmRwrmd/3ale084Uyz7cN/8sKQ==",
+  "_location": "/@devslane/sns-service-node",
+  "_phantomChildren": {
+    "asynckit": "0.4.0",
+    "aws-sign2": "0.7.0",
+    "aws4": "1.9.1",
+    "bluebird": "3.7.2",
+    "caseless": "0.12.0",
+    "combined-stream": "1.0.8",
+    "extend": "3.0.2",
+    "forever-agent": "0.6.1",
+    "har-validator": "5.1.5",
+    "http-signature": "1.2.0",
+    "is-typedarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "mime-types": "2.1.32",
+    "oauth-sign": "0.9.0",
+    "performance-now": "2.1.0",
+    "request-promise-core": "1.1.4",
+    "safe-buffer": "5.2.1",
+    "stealthy-require": "1.1.1",
+    "tough-cookie": "2.5.0",
+    "tunnel-agent": "0.6.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@devslane/sns-service-node@1.0.2",
+    "name": "@devslane/sns-service-node",
+    "escapedName": "@devslane%2fsns-service-node",
+    "scope": "@devslane",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.devslane.com/@devslane%2fsns-service-node/-/sns-service-node-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/home/ubuntu/app/matrix-be",
+  "author": {
+    "name": "Piyush Mishra"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "description": "SNS Service for node applications",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.11",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.2.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "redis",
+    "service",
+    "helper"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@devslane/sns-service-node",
+  "scripts": {
+    "build": "npm run build-ts && npm run tslint",
+    "build-ts": "tsc",
+    "docs": "typedoc --out docs lib",
+    "prepare": "npm run build && npm run test",
+    "test": "jest --coverage",
+    "test:jest": "jest",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.2"
+}
